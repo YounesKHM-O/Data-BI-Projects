@@ -4,7 +4,7 @@ This folder contains ETL (Extract, Transform, Load) processes designed with Tale
 
 🛠️ ETL Process
 	
- 	1.	Importing Data (Included in Processing)
+ 	**1.	Importing Data (Included in Processing)
 	Data is imported directly in the Processing step before transformation begins.
 	Sources: CSV, JSON, or database tables.
 	Handled using Talend Input Components (e.g., tFileInputDelimited, tDBInput).
