@@ -5,11 +5,19 @@ This folder contains ETL (Extract, Transform, Load) processes designed with Tale
 
 
 ## 🛠️ ETL Process
-- **Importing Data (Included in Processing)** – Data is imported directly in the Processing step before transformation begins, Sources: CSV, 	Handled using Talend Input Components (e.g., tFileInputDelimited, tDBInput). 
+- `Importing Data (Included in Processing)/` – Data is imported directly in the Processing step before transformation begins, Sources: CSV, 	Handled using Talend Input Components (e.g., tFileInputDelimited, tDBInput).
+  
+- `Processing Data/` 
+  •	Data cleaning, transformation, and enrichment.
+	•	Operations: filtering, deduplication, type conversion, etc.
+	•	Implemented with tMap, tFilterRow...etc.
 
+- `Loading Data/` –
+  •	Processed data is inserted into the target database.
+	•	Handled using tDBOutput.
 
-## 📁 Project Structure
-- 🛠️ `Talend_ETL_Workflows/` – ETL screenshots and job configurations  
-- 📊 `PowerBI_Dashboards/` – Data visualizations and insights  
-- 🗄️ `SQL_Scripts/` – Queries for data analysis  
+## Technologies Used
+- Talend Open Studio
+- SQLLite
+- CSV
 
