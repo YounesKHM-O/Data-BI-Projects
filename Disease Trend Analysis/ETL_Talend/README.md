@@ -2,6 +2,7 @@
 
 This folder contains ETL (Extract, Transform, Load) processes designed with Talend to manage and process healthcare data efficiently. These ETL jobs are responsible for extracting raw data, transforming it into a structured format, and loading it into the database.
 
+
 🛠️ ETL Process
 	
  1.	Importing Data (Included in Processing) :
@@ -18,9 +19,13 @@ Implemented with tMap, tFilterRow, and tNormalize.
 Processed data is inserted into the target database.
 Handled using tDBOutput.
 
+
+
 📷 Screenshots
 
 ETL workflow screenshots will be included to illustrate the process in Talend.
+
+
 
 🚀 Technologies Used
 	•	Talend Open Studio – For ETL development
