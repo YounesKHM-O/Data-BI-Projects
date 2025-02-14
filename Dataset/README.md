@@ -24,6 +24,3 @@ The dataset consists of **student-related attributes**, including demographics, 
 - `StudentAbsenceDays` – Number of absence days (Under-7, Above-7).  
 - `Class` – Student's final grade classification (Low, Middle, High).  
 
----
-
-## 📂 File Structure  
