@@ -8,11 +8,6 @@ This project analyzes disease trends in a medical center using **Talend ETL, SQL
 - **SQL Database** – Storing and querying structured data  
 - **Power BI** – Visualization and reporting  
 
-## 📊 Key Insights
-- Most common diseases and seasonal trends  
-- Patient disease correlations  
-- Hospital resource optimization  
-
 ## 📁 Project Structure
 - 🛠️ `Talend_ETL_Workflows/` – ETL screenshots and job configurations  
 - 📊 `PowerBI_Dashboards/` – Data visualizations and insights  
