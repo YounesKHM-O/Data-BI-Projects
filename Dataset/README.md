@@ -1,1 +1,1 @@
-
+This folder contains the dataset used for the **Student Enrollment Analysis** project. The data includes student demographic information, academic details, semester enrollments, and attendance records.  
