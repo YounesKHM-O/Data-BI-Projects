@@ -5,7 +5,7 @@ This project analyzes disease trends in a medical center using **Talend ETL, SQL
 
 ## 🛠️ Technologies Used
 - **Talend ETL** – Data extraction, transformation, and loading  
-- **SQL Database** – Storing and querying structured data  
+- **SQLite** – Storing and querying structured data  
 - **Power BI** – Visualization and reporting  
 
 ## 📁 Project Structure
