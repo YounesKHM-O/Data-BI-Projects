@@ -18,6 +18,6 @@ This folder contains ETL (Extract, Transform, Load) processes designed with Tale
 
 ## Technologies Used
 - Talend Open Studio
-- SQLLite
+- SQLite
 - CSV
 
