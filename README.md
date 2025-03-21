@@ -3,8 +3,6 @@
 
 This repository showcases my work in:
 
-This repository showcases my work in:
-
 🔄 ETL development with Talend and SQL.  
 🧼 Data preparation and cleaning using Python.  
 📊 Dynamic dashboards using BI tools.  
