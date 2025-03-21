@@ -1,19 +1,14 @@
 # Customer Churn Analysis
 
-This project aims to analyze customer churn behavior using a dataset containing customer profiles, service usage, and churn labels. The goal is to uncover key factors that influence customer retention.
+This project analyzes customer churn behavior using a real-world dataset. It combines **Python** for data cleaning and exploration, and **Tableau** for interactive dashboards. The goal is to uncover the key factors behind customer churn and deliver actionable insights.
 
-## 🔍 Objectives
-- Identify patterns leading to customer churn.
-- Create interactive dashboards with **Tableau** to visualize churn metrics.
-- Support strategic decisions for improving customer retention.
+## 🔧 Tools Used
+- Python
+- CSV dataset from Kaggle
+- Tableau
 
-## 🛠️ Tools & Technologies
-- **CSV dataset** from telecom industry.
-- **Python / SQL** (for preparing the data).
-- **Tableau** for dashboard creation.
-
-## 📂 Project Structure
-- `Dataset/`: Contains the raw dataset.
-- `Tableau_Dashboards/`: Tableau workbook and dashboard images.
-- `Docs/`: Additional documentation (data dictionary, project summary).
-
+## 📂 Structure
+- `Dataset/`: Raw and cleaned datasets.
+- `Python_Processing/`: Python scripts for cleaning and preprocessing.
+- `Tableau_Dashboards/`: Tableau workbook and screenshots.
+- `Docs/`: Project documentation.
