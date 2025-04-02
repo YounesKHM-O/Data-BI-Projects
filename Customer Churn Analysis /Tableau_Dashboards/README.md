@@ -1,6 +1,6 @@
 # Tableau Dashboards - Customer Churn
 
-This folder contains Tableau dashboards built from the processed dataset exported from Python.  
+This folder contains Tableau dashboard built from the dataset.  
 
 Dashboard Insights Summary
 
