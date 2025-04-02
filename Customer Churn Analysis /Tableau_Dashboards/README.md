@@ -21,7 +21,7 @@ Action: Reactivation campaigns for inactive users.
 
 4. Churned vs. Active Customers  
 
-Snapshot: Compare churn customers.  
+Snapshot: Compare churn and active customers.  
 
 
 ## 📁 Files
