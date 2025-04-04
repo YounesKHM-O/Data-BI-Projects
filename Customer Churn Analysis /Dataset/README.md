@@ -5,7 +5,6 @@ This folder contains the raw and cleaned datasets used in the Customer Churn Ana
 ## 📂 Folder Structure
 
 - `raw_data/`: Contains the original dataset downloaded from Kaggle.
-- `Cleaned_data/`: Contains the cleaned and transformed dataset ready for analysis and visualization.
 
 ## 📑 Description
 
