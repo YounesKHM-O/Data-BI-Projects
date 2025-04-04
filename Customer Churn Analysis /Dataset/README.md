@@ -1,6 +1,6 @@
 # Dataset - Customer Churn Analysis
 
-This folder contains the raw and cleaned datasets used in the Customer Churn Analysis project.
+This folder contains dataset used in the Customer Churn Analysis project.
 
 ## 📂 Folder Structure
 
