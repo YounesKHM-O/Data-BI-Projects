@@ -8,4 +8,4 @@ This repository showcases my work in:
 📊 Dynamic dashboards using BI tools.  
 🧭 Designing organized, modular workflows for scalable analytics.  
 
-Each project reflects a practical approach to solving data problems, emphasizing clarity, efficiency, and visual impact through storytelling and structured analysis.
+Each project reflects a practical approach to solving data problems, emphasizing clarity, efficiency, and visual impact through structured analysis.
