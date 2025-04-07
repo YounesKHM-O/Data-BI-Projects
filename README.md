@@ -3,9 +3,9 @@
 
 This repository showcases my work in:
 
-🔄 ETL development with Talend and SQL.  
-🧼 Data preparation and cleaning using Python.  
-📊 Dynamic dashboards using BI tools.  
-🧭 Designing organized, modular workflows for scalable analytics.  
+🔄 ETL Development – Efficient data pipelines for seamless integration.  
+🐍 Data Preparation & Prediction – Leveraging Python for cleaning, analysis, and modeling.  
+📊 Dynamic Dashboards – Interactive visualizations using BI tools (Power BI, Tableau, etc..).  
+🧭 Modular Workflows – Scalable and organized analytics architectures.  
 
-Each project reflects a practical approach to solving data problems, emphasizing clarity, efficiency, and visual impact through structured analysis.
+Each project demonstrates a practical, results-driven approach, prioritizing clarity, efficiency, and visual impact.  
