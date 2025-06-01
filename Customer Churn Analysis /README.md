@@ -1,6 +1,6 @@
 # Customer Churn Analysis
 
-This project analyzes customer churn behavior using a real-world dataset. It combines **Python** for data cleaning, exploration, and predictive modeling, and **Tableau** for interactive dashboards. The goal is to uncover the key factors behind customer churn and deliver actionable insights.
+This project analyzes customer churn behavior using a real-world dataset. It combines **Python** for data exploration and predictive modeling, and **Tableau** for interactive dashboards. The goal is to uncover the key factors behind customer churn and deliver actionable insights.
 
 ## 🔧 Tools Used
 - Python (pandas, scikit-learn, etc.)
