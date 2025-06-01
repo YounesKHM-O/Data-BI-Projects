@@ -26,4 +26,4 @@ Snapshot: Compare churn and active customers.
 
 ## 📁 Files
 - `ChurnDashboard.twb`: Tableau workbook
-- `Images/`: Screenshots of the dashboards
+- `Dashboard_Screenshot.png`: Screenshots of the dashboards
