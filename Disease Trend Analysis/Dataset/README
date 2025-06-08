@@ -1,6 +1,13 @@
+
 📝 Description
 
-Ce dossier dataset contient toutes les données utilisées dans le projet d’analyse des tendances des maladies au centre médical. Il est organisé en deux parties principales :
+Le dossier dataset contient toutes les données utilisées dans le cadre du projet "Disease Trend Analysis", visant à analyser les tendances de maladies dans un centre médical.
+Ce répertoire est structuré en deux fichiers principaux :
 
-raw_data.zip : archive contenant les données brutes, non nettoyées, issues des différentes sources internes.
-prepared_data.db : base de données SQLite contenant les données nettoyées, transformées et prêtes à l’analyse.
+
+📦 Contenu du dossier
+
+Fichier	Type	            Description
+
+Daw_Data.zip	            Archive (ZIP)	Contient les fichiers bruts extraits des sources internes du centre médical. Aucune transformation n’a été appliquée.
+Drepared_Data.db	        Base de données	Fichier SQLite contenant les données nettoyées, restructurées et enrichies, prêtes à être utilisées pour l’analyse.
