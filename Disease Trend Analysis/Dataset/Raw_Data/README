@@ -4,7 +4,7 @@
 Ce fichier compressé contient **l’ensemble des données brutes** extraites depuis différentes sources internes de l’école de langues. Ces fichiers représentent l’état initial des données avant tout traitement, nettoyage ou transformation.
 
 ## 📦 Contenu du ZIP
-Le fichier `raw_data.zip` contient plusieurs fichiers plats, notamment : 
+Le fichier `Raw_Data.zip` contient plusieurs fichiers plats, notamment : 
 
 | Fichier Plat          | Description                                     |
 |----------------------|--------------------------------------------------|
