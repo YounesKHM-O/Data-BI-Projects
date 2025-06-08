@@ -5,6 +5,7 @@ This repository showcases my work in:
 
 🔄 ETL Development – Efficient data pipelines for seamless integration.  
 🐍 Data Preparation & Prediction – Leveraging Python for cleaning, analysis, and modeling.  
+🧩 Designing efficient data architectures using star and snowflake schemas, ensuring scalable and performant database structures tailored for analytical needs.
 📊 Dynamic Dashboards – Interactive visualizations using BI tools (Power BI, Tableau, etc..).  
 🧭 Modular Workflows – Scalable and organized analytics architectures.  
 
