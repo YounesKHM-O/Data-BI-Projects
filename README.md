@@ -1,5 +1,5 @@
 # Data-BI-Projects
-🚀 A collection of my Data Analytics and Business Intelligence focused on transforming raw data into meaningful insights through clear processes and effective tools.
+🚀 A collection of my Data Science and Business Intelligence projects, focused on transforming raw data into meaningful insights through clear processes and effective tools.
 
 This repository showcases my work in:
 
