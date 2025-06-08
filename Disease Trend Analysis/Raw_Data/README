@@ -1,0 +1,21 @@
+# 📂 Fichier : Raw_Data.zip
+
+## 📝 Description  
+Ce fichier compressé contient **les données brutes** extraites du centre médical, telles qu’elles ont été collectées sans aucun traitement préalable.
+
+## 📦 Contenu  
+Le ZIP inclut plusieurs fichiers plats, notamment :  
+
+| Fichier          | Description                            |
+|------------------|--------------------------------------|
+| Patient.xlsx     | Données personnelles des patients    |
+| Maladie.xlsx     | Informations détaillées sur les maladies |
+| Services.csv     | Liste des services médicaux           |
+| Consultations.csv| Données des consultations effectuées |
+
+## ⚠️ Remarques  
+- Les fichiers peuvent contenir des doublons, valeurs manquantes et formats incohérents.  
+- Aucun nettoyage ni harmonisation n’a été appliqué à ce stade.
+
+## 🎯 Objectif  
+Servir de source initiale pour les processus d’extraction, transformation et chargement (ETL) afin de préparer les données pour analyse.
