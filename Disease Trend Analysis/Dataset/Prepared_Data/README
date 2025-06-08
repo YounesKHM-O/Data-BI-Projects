@@ -1,0 +1,20 @@
+📝 Description
+
+Cette base de données SQLite contient les données nettoyées et transformées provenant du fichier raw_data.zip. Toutes les opérations ont été effectuées via une série de jobs Talend pour structurer et améliorer la qualité des données en vue de l’analyse.
+
+📦 Tables principales
+
+Table	                      Description
+
+Patients	                  Informations nettoyées sur les patients
+Maladies	                  Liste structurée des maladies (avec familles, services)
+Services	                  Détails des services liés aux maladies
+Consultations	              Historique des consultations avec informations de date
+Categ_Services	            Catégories extraites des services
+Famille_Maladie	            Familles extraites des maladies
+Dim_Date	                  Table de dimension de la date (jour, mois, année, etc.)
+
+
+🎯 Objectif
+
+Fournir une base de données propre, normalisée et prête à être utilisée dans des outils d’analyse de données comme Power BI, facilitant les requêtes SQL et la création de rapports interactifs.
