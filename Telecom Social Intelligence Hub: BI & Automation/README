@@ -1,77 +1,49 @@
-Business Case
+# Telecom Social Intelligence Hub
 
-How to transform 370,000+ unorganized social signals into a strategic advantage? This project provides a real-time decision-making platform for the Algerian telecom market, bridging the gap between raw Facebook data and executive insights. It addresses key technical hurdles, such as the "Black Box" of closed APIs and the "Semantic Lock" of complex dialectal speech (Arabizi and Darija).
+[cite_start]This project provides a real-time decision-making platform for the Algerian telecom market, bridging the gap between raw Facebook data and executive insights[cite: 14, 33, 41]. [cite_start]It transforms 370,000+ unorganized social signals into a strategic advantage by addressing technical hurdles such as the "Black Box" of closed APIs and the "Semantic Lock" of complex dialectal speech (Arabizi and Darija)[cite: 36, 38, 48].
 
+## Data Modeling & Analytics
 
-Data Modeling & Analytics
+[cite_start]The architecture follows a Star Schema designed for high-performance DAX queries and seamless scalability[cite: 112].
 
-The architecture follows a Star Schema designed for high-performance DAX queries and seamless scalability.
+**Fact Tables:**
+* [cite_start]**Fact_Posts**: Centralizes quantitative performance metrics such as reactions and shares[cite: 113].
+* **Fact_Comments**: Houses qualitative sentiment data and user verbatims[cite: 114].
 
-Fact Tables:
+**Dimensions:**
+* **Dim_Calendar**: Enables time-intelligence analysis and temporal pilotage[cite: 115].
+* **Dim_Operators**: Facilitates competitive benchmarking across the three providers[cite: 116].
 
-- Fact_Posts: Centralizes quantitative performance metrics (reactions, shares).
+**Quality Gate:**
+[cite_start]To ensure reliable insights, a **0.70 confidence threshold** was implemented on the NLP model[cite: 92]. [cite_start]This rigorous filtering eliminates digital noise and ambiguous comments, preserving a corpus of "certified reliable" data for critical KPIs[cite: 93, 94].
 
-- Fact_Comments: Houses qualitative sentiment data and user verbatims.
+## Strategic KPIs (DAX)
 
-Dimensions:
+[cite_start]A comprehensive dictionary of measures was developed to extract business value from the data[cite: 121]:
 
-- Dim_Calendar: Enables time-intelligence analysis and temporal pilotage.
+* [cite_start]**Net Sentiment Score (NSS)**: Calculates net customer satisfaction by measuring the difference between positive and negative sentiment ratios[cite: 122].
+* **Share of Voice (SOV %)**: Measures relative market visibility and brand presence based on publication volume[cite: 123].
+* [cite_start]**Polarity Index**: A ratio measuring brand benevolence by comparing positive engagement against negative engagement[cite: 126].
+* [cite_start]**Comment Intensity**: Distinguishes active engagement from passive reactions, identifying the most vocal user communities[cite: 127].
 
-- Dim_Operators: Facilitates competitive benchmarking across the three providers.
+## Industrial Automation (RPA)
 
+[cite_start]The refresh cycle is **100% autonomous**, eliminating the need for a manual Gateway or human intervention[cite: 137, 157, 164].
 
-Quality Gate:
+* [cite_start]**Integrity Check**: A Multi-Wait sequence monitors six simultaneous CSV streams (Posts and Comments for each operator) to ensure data stability and completeness before ingestion[cite: 158, 162].
+* **UI Automation**: The flow automatically targets the Power BI Desktop window and triggers the "Refresh" action via UI element simulation[cite: 163].
+* [cite_start]**Performance**: Sentiment inference was accelerated by **10x** by leveraging Metal Performance Shaders (MPS) on the Apple M3 chip compared to standard CPU execution[cite: 86, 87, 172].
 
-To ensure reliable insights, a 0.70 confidence threshold was implemented on the NLP model.
+## Tech Stack
 
-This rigorous filtering eliminates digital noise and ambiguous comments, preserving a corpus of "certified reliable" data for critical KPIs.
+* [cite_start]**Analytics**: Power BI (DAX, Power Query)[cite: 113, 107].
+* **Automation**: Power Automate Desktop, Flask (Python)[cite: 156, 140].
+* [cite_start]**Data Engineering**: Python, Playwright, GraphQL interception (Reverse Engineering)[cite: 52, 50, 172].
+* [cite_start]**AI / NLP**: XLM-RoBERTa (Deep Learning Transformers)[cite: 84, 172].
 
-Strategic KPIs (DAX)
+## Repository Structure
 
-A comprehensive dictionnaire of measures was developed to extract business value from the data:
-
-
-- Net Sentiment Score (NSS): Calculates net customer satisfaction by measuring the difference between positive and negative sentiment ratios.
-
-- Share of Voice (SOV %): Measures relative market visibility and brand presence based on publication volume and visibility.
-
-- Polarity Index: A ratio measuring brand benevolence by comparing positive engagement against negative engagement.
-
-- Comment Intensity: Distinguishes active engagement from passive reactions, identifying the most vocal user communities.
-
-Industrial Automation (RPA)
-
-The refresh cycle is 100% autonomous, eliminating the need for a manual Gateway or human intervention.
-
-
-Integrity Check: A Multi-Wait sequence monitors six simultaneous CSV streams (Posts and Comments for each operator) to ensure data stability and completeness before ingestion.
-
-
-UI Automation: The flow automatically targets the Power BI Desktop window and triggers the "Refresh" action via UI element simulation.
-
-
-Performance: Sentiment inference was accelerated by 10x by leveraging Metal Performance Shaders (MPS) on the Apple M3 chip compared to standard CPU execution.
-
-Tech Stack
-
-Analytics: Power BI (DAX, Power Query).
-
-Automation: Power Automate Desktop, Flask (Python).
-
-
-Data Engineering: Python, Playwright, GraphQL interception (Reverse Engineering).
-
-
-AI/NLP: XLM-RoBERTa (Deep Learning Transformers).
-
-Repository Structure
-
-/dashboard: The .pbix interactive file (Executive War Room).
-
-
-/scripts: Python orchestrator (pipeline_runner.py), session management, and NLP modules.
-
-
-/assets: GIFs of the automation workflow and dashboard screenshots.
-
-/docs: Full technical report (PDF).
+* **/dashboard**: The .pbix interactive file containing the Executive War Room[cite: 128, 184].
+* [cite_start]**/scripts**: Python orchestrator (pipeline_runner.py), session management, and NLP modules[cite: 143, 147].
+* **/assets**: GIFs of the automation workflow and dashboard screenshots.
+* **/docs**: Full technical report in PDF format.
