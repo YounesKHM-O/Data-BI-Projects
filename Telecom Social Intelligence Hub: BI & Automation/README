@@ -1,0 +1,33 @@
+This End-to-End BI solution transforms massive, unstructured social media data into strategic insights for the Algerian telecommunications market (Djezzy, Mobilis, Ooredoo).
+
+
+Architecture & Engineering
+Data Acquisition: Asynchronous scraping using protocol interception of the Facebook GraphQL API.
+
+
+NLP Engine: Dialectal sentiment analysis (Arabizi/Darija) using XLM-RoBERTa.
+
+
+Industrial Automation: 100% autonomous refresh cycle managed by Power Automate Desktop.
+
+
+Business Intelligence Highlights
+The project utilizes a Star Schema optimized for high-performance DAX queries.
+
+Strategic KPIs (DAX)
+
+Net Sentiment Score (NSS): Measures net customer satisfaction.
+
+Share of Voice (SOV %): Relative brand visibility against competitors.
+
+Polarity Index: Ratio of positive vs. negative brand engagement.
+
+
+Shutterstock
+Automation Workflow (RPA)
+To ensure data freshness without manual intervention, a RPA flow orchestrates the pipeline:
+
+Integrity Check: Active monitoring of 6 CSV sources.
+
+
+UI Automation: Automated UI interaction with Power BI Desktop to trigger data refresh.
